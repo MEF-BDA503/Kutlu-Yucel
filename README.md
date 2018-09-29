@@ -1,2 +1,1 @@
-week 1
-first weeks assignment
+1st Week Assignment

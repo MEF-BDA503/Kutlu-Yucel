@@ -1,3 +1,1 @@
-Progress Journal
-
-Week 1
+BDA 503 trial

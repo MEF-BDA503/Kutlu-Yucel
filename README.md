@@ -1,4 +1,3 @@
-# pj18-kkyucel
-pj18-kkyucel created by GitHub Classroom
+Kutlu Yucel
 week 1
 first weeks assignment

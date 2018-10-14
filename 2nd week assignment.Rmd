@@ -1,0 +1,39 @@
+---
+title: "Second Assignment"
+author: "Kutlu Yucel"
+date: "13 October 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Hello, my name is Kutlu Yucel.I work for Yapı Kredi Bank as Head of Capital Management.My interest on data mainly focuses on two things: (i) optimization and (ii) machine learning. Outcome of my job is three simple capital adequacy ratios but they derive from a data set includes millions of lines and hundreds of columns updating in real time. In current world there is no system overseeing this process in real time or close to it but there is first for everything.
+
+## Tree-Based Machine Learning for Insurance Pricing
+
+Presentation by Roel Henchaerts is a really well documented summary of how machine learning tecniques can be implemented into insurance sector. In this presentation current models to evaluate risk which are GLM and GAM identified as benchmark. They have been challenged by machine learning tecniques which are Regression Tree, Random Forest and Gradient Boosting Machine (GBM). According to results of this study GBM has promising outcome to increase profitibility of the portfolios or at least can be used to identify more profitible portfolios.
+
+https://www.youtube.com/watch?v=z1AlNGXGz9A
+
+## Example 1: R in Financial Risk Analytics Applications by Bill Foote
+
+For the past few years R has grabbed the attention of financial risk managers, regulators, investors, and consultants who analyze and process financial data to support complex financing and investment decisions. There is a very strong appeal at work here: financial market volatility (and failures!), growing trends in hard to quantify risks like cyber, and the interdependency of a wide array of financial market participants. The use of R in financial risk analytics flourishes because of its nimble ability to adapt rapidly to changing requirements. In this video, Bill Foote motivates the use of R with a concrete example from risk management that aggregates risks, simulates extreme events, and reports results enterprise decision makers can use.
+
+https://www.youtube.com/watch?v=76VfhwR6g5s
+
+
+## Example 2: Tidy forecasting in R
+
+Rob J Hyndman is presenting about forecast implementations about forecasting in general. Starting with a timeline of how forecast package developed during years starting with 2003 and moving toward today. Fable which is a new package is intented to replace forecast package has been explained in detail. Two of the new features have more importance according to my stand point. First one is it is integrated to tidyverse package which I know a focus on my on going master degree in MEF BDA program. Second one is new fable package is designed to forecast multiple time series whereas forecast package is only designed for single time series to be analyzed.
+
+https://www.youtube.com/watch?v=MemnYSGeJ34&t=118s
+
+## Example 3: Forecasting Credit Default Probability with R
+
+A project authered by Matthew Ludwig in 2017 intended to forecast default risk of a customers which is the main focus my job area. As stated by author himself this is a more straight forward version of Lore Dirick´s “Credit Risk Modeling in R”- DataCamp Course which is also has a high place in my to do list. Project is starting with defining related areas and try to find corelations between each other in order to predict how probable a customer can default in the future.
+
+https://rpubs.com/Tirentrus/Project1

@@ -320,8 +320,16 @@ $(document).ready(function () {
 </div>
 <div id="download-raw-data" class="section level2">
 <h2>Download Raw Data</h2>
-<p>Unfortunately downloaded file from github repository could not be opened. Due to this problem I altered the assignment course to work on a local file but the original excel output still available in my repository and here is the <a href="https://github.com/MEF-BDA503/pj18-kkyucel/blob/master/odd_retail_sales_2017_05.xlsx">link</a>.</p>
-<pre class="r"><code>raw_data&lt;-readxl::read_excel(&quot;odd_retail_sales_2017_05.xlsx&quot;,skip=7,col_names=FALSE)</code></pre>
+<p>I had some problems with downloading data but I solved it by adding mode = “wb” statement after download files command. I found this solution from <a href="https://github.com/tidyverse/readxl/issues/374">github_forums</a>. In any case, original excel output still available in my repository and here is the <a href="https://github.com/MEF-BDA503/pj18-kkyucel/blob/master/odd_retail_sales_2017_05.xlsx">link</a>.</p>
+<pre class="r"><code># Create a temporary file
+tmp&lt;-tempfile(fileext=&quot;.xlsx&quot;)
+# Download file from repository to the temp file with mode statement
+download.file(&quot;https://github.com/MEF-BDA503/pj18-kkyucel/blob/master/odd_retail_sales_2017_05.xlsx?raw=true&quot;,mode = &quot;wb&quot;,destfile=tmp)
+# Read that excel file using readxl package&#39;s read_excel function. You might need to adjust the parameters (skip, col_names) according to your raw file&#39;s format.
+raw_data&lt;-readxl::read_excel(tmp,skip=7,col_names=FALSE)
+# Remove the temp file
+file.remove(tmp)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 <pre class="r"><code># I will remove the last two rows since they are empty by using slice
 raw_data &lt;- raw_data %&gt;% slice(-c(43,44))
 # Let&#39;s see how it is look like now

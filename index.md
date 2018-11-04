@@ -2,7 +2,7 @@
 ## Week 3: Second Assignment : Analysing ODD Data
 
 Here is the
-[link](https://mef-bda503.github.io/pj18-kkyucel/3rd_week_odd_assignment.html)
+[link](https://mef-bda503.github.io/pj18-kkyucel/week_3/3rd_week_odd_assignment.html)
 to my analysis about Car Sales in Turkey on May 2017
 
 Also you can find rds data

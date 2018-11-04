@@ -6,7 +6,7 @@ Here is the
 to my analysis about Car Sales in Turkey on May 2017
 
 Also you can find rds data
-[here](https://github.com/MEF-BDA503/pj18-kkyucel/blob/master/week_3/odd_retail_sales_2017_05.xlsx?raw=true)
+[here](https://github.com/MEF-BDA503/pj18-kkyucel/blob/master/week_3/odd_car_sales_data_may_17.rds?raw=true)
 
 ## Week 2: First Assignment
 

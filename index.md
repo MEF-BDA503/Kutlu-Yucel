@@ -2,7 +2,7 @@
 ## Week 4: Third Assignment: Analysing ODD Data - Part 2
 
 [Link](https://mef-bda503.github.io/pj18-kkyucel/week_3/odd_assignment_part2.html)
-to my analysis about import car sale performance of top 5 overall car seller in Turkey
+to my analysis about import car sale performance of **top 5** overall car seller in Turkey.
 
 ## Week 3: Second Assignment : Analysing ODD Data
 

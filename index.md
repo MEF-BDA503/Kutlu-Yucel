@@ -13,7 +13,7 @@ to my analysis about Car Sales in Turkey on May 2017
 Also you can find rds data
 [here](https://github.com/MEF-BDA503/pj18-kkyucel/blob/master/week_3/odd_car_sales_data_may_17.rds?raw=true)
 
-My analysis on EGM data is available [here.](https://mef-bda503.github.io/pj18-kkyucel/week_3/egm.html)
+My analysis on EGM data is available [here.](https://github.com/MEF-BDA503/pj18-kkyucel/week_3/egm.html)
 
 ## Week 2: First Assignment
 

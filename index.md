@@ -5,7 +5,7 @@
 
 ## Week 3: Second Assignment : Analysing ODD Data
 
-My analysis on __EGM__ data is available [here.](https://mef-bda503.github.io/pj18-kkyucel/week_3/egm.html)
+My analysis on __EGM__ data is available here
 
 Here is the [link](https://mef-bda503.github.io/pj18-kkyucel/week_3/3rd_week_odd_assignment.html) to my analysis about Car Sales in Turkey on May 2017
 
